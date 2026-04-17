@@ -14,14 +14,3 @@ Rovver</a> Chrome Extension. The extension automatically exported the viewed pos
 <p> As X implemented anti-scraping measures, it has imposed limitations regarding how many posts users are able to search within a specific timeframe, before the search function stops working, after which the user is required to wait for an unidentified amount of time before it resets. Therefore, the collection of the dataset was a time-consuming task. </p> 
 <h4> Dataset</h4>
 <p>The original dataset is available <a href='https://github.com/pdobrowolska/fyp/blob/main/fyp_dataset.csv'>here,</a> while the clean version, which consists of <b>3247</b> posts, and excludes any irrelevant sources, dates beyond the selected timeframe, and the Scraped Date column, can be accessed <a href='https://github.com/pdobrowolska/fyp/blob/main/fyp_dataset_clean.csv'>here</a>.</p>
-<h2>Findings</h2>
-<ul>
-<li>The amount of posts regarding Ukraine/Ukrainians in February-March 2022 (2208), was twice the sum of the coverage for all remaining years (1039). </li>
-<li>The Irish Examiner and RTÉ News published the most on the topic, suggesting a centrist/left-leaning narrative surrounding the coverage on Ukrainians. </li>
-<li>There are spikes in the amount of coverage surrounding international events, such as Ukraine's deal with Saudi Arabia (February 2023) or Zelenskyy's meeting with Donald Trump (February 2025).</li>
-<li>Sentiment was mostly negative, but that could be attributed to the war-related coverage, rather than the social attitudes/framing of Ukrainians per se.</li>
-<li>In 2025, the most dominant sentiment was positive, possibly reflecting less coverage regarding the war itself.</li>
-</ul>
-<h2> Visualisations </h2>
-<h2> Shortcomings </h2>
-<p> Due to the restrictions of X Academic API, the selection of the material was limited. As a result, the project does not capture the public responses, and is limited to a specific, narrow timeline. Additionally, both X posts and news headlines are traditionally short texts, which limits the amount of Natural Language Processing techniques that could be applied for the final analysis to derive meaningful results.</p>
